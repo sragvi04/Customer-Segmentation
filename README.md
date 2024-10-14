@@ -24,15 +24,17 @@ We have the following features:
 
 Invoice information
 
-'InvoiceNo' – Unique ID for invoice
-'InvoiceDate' – Invoice date
+- 'InvoiceNo' – Unique ID for invoice
+- 'InvoiceDate' – Invoice date
+
 Item information
 
-'StockCode' – Unique ID for item
-'Description' – Text description for item
-'Quantity' – Units per pack for item
-'UnitPrice' – Price per unit in GBP
+- 'StockCode' – Unique ID for item
+- 'Description' – Text description for item
+- 'Quantity' – Units per pack for item
+- 'UnitPrice' – Price per unit in GBP
+
 Customer information
 
-'CustomerID' – Unique ID for customer
-'Country' – Country of customer
+- 'CustomerID' – Unique ID for customer
+- 'Country' – Country of customer

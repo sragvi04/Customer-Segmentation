@@ -55,13 +55,13 @@ The first step involves grouping data at the customer level to capture essential
 Then at product-level, it was determined how much of each product a customer purchased. To streamline this process, a threshold was applied to focus on the top 150 most frequently purchased products. This ensures that the segmentation model factors in the most impactful buying behavior, without being overwhelmed by less relevant products.
 
 ## Machine Learning Models
-# PCA
+### PCA
 Principal Component Analysis (PCA) is an Unsupervised Learning task that creates a sequence of new, uncorrelated features that each try to maximize its "explained variance" of the original dataset.
 
 It does so by generating linear combinations from your original features and these new features are meant to replace the original ones.
 Based on the cummulative varience graph formed, to capture about 98% of the variance, it was required to keep around 300 components. Thus, reducing the dimensionality from 2574 to 300 features that explained the most variance for the original features.
 
-# KMeans Clustering
+### KMeans Clustering
  K-Means creates clusters based on distances that calculated by between observations defined by their feature values.
  3 possible feature sets were take and clusters created from them were compared. These are:
 
